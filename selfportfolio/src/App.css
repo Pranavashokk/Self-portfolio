@@ -1,0 +1,110 @@
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+}
+.listofitems {
+  display: flex;           
+  align-items: center;
+
+  background: #020024;
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(12, 12, 61, 1) 39%, rgba(4, 11, 23, 1) 77%);
+  margin: 0;
+
+}
+h1 {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.listofitems li {
+  margin-right: 40px;      
+  list-style: none;      
+  font-size: 15px;
+  font-family:'arial';
+  align-items:right;
+  &:hover
+  {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.4s ease-in-out;
+  }
+}
+.info{
+  color:white;
+  font-family: Montserrat,sans-serif;
+  text-align:center;
+  font-size:24px;
+
+}
+.knowmore{
+  border-radius:100px;
+  background-color: #030c3c;
+  margin-top: 40px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-color: #2f2e4e;
+  margin-bottom: 100px;
+  &:hover {
+    background-color: #020024;
+      }
+}
+.pranmage{
+  width:400px;
+  margin-top:150px;
+  display:block;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+.aboutme img{
+  width: 400px;
+  padding: 40px;
+  margin-top:100px;
+  align-items: left;
+  margin-right:auto;
+  display:block;
+  border-radius: 100px;
+
+}
+
+.aboutme{
+  
+  display: flex;
+  align-items: center;
+  background-color: #06042b;
+}
+.aboutme h2 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+.aboutme-text p {
+  text-align: left;
+}
+.aboutme-text {
+  display: flex;
+  flex-direction: column; 
+  margin-left: 20px;    
+  margin-right: 20px;
+  color: white;
+  border-width: 40px;  
+}
+.anchor {
+  text-decoration: none;
+  color:white;
+}
